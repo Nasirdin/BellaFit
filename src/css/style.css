@@ -87,6 +87,9 @@ ul {
 .header .nav__link:hover {
   color: #999;
 }
+.header__burger-menu {
+  display: none;
+}
 .header__burger {
   width: 18px;
   height: 2px;
@@ -622,6 +625,9 @@ ul {
 @media (max-width: 460px) {
   .home__fitness-text {
     width: 327px;
+  }
+  .home__content {
+    width: auto;
   }
   .section-3__item {
     width: 350px;

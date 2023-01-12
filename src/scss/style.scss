@@ -83,6 +83,9 @@ ul {
       }
     }
   }
+  &__burger-menu {
+    display: none;
+  }
   &__burger {
     width: 18px;
     height: 2px;
@@ -552,7 +555,7 @@ ul {
     &__burger {
       display: block;
       z-index: 1000;
-      &.active{
+      &.active {
         margin-left: 20px;
         margin-top: 30px;
       }
@@ -580,11 +583,11 @@ ul {
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        li{
+        li {
           margin: 0;
         }
       }
-      &.active{
+      &.active {
         display: block;
       }
     }
@@ -653,6 +656,9 @@ ul {
   .home {
     &__fitness-text {
       width: 327px;
+    }
+    &__content{
+      width: auto;
     }
   }
   .section-3 {
